@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #E20000;
+    font-size: 36px;
+}
+p{
+    font-size: 16px;
+    color: #6a6a6a;
+}
+.btn-blanco{
+    background-color: white;
+    border-radius: 20px;
+
+}
+.btn-blanco:hover, .btn-rojo:hover{
+    background-color: #370a6d;
+    color: white;
+}
+.btn-rojo{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    font-weight: 200;
+}
+.link-rojo{
+    color: #E20000;
+    text-decoration: underline;
+
+}
+    
+
+
+#Proyectos{
+    background-image: url('imagenes/fondo-proyectos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#contacto, #Inicio{
+        background-image: url('imagenes/fondo-contacto.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+textarea{
+    height: 190px;
+}
+nav .active{
+    border: 1px solid #E20000;
+
+}
+nav a{
+    padding: 8px 25px !important;
+    border-radius: 30px;
+}
+footer, footer a{
+    color: white;
+    font-weight: 200;
+}
+#Proyectos footer, #Proyectos footer a{
+    color: #E20000;
+}
+footer .fa-linkedin-in{
+    color: #E20000;
+    font-size: 28px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 8px 8px 4px 8px;
+    margin-left: 10px;
+}
+footer .fa-github{
+    font-size: 38px;
+    height: 40px;
+
+}
+.proyecto{
+    border: 1px solid #eee;
+    background-color: white;
+}
+.proyecto h2{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    background: rgb(80,12,4);
+    background: linear-gradient(90deg, rgba(80,12,4,1) 0%, rgba(196,36,36,1) 77%);
+
+}
+.proyecto p{
+    font-size: 14px;
+    height: 130px;
+}
+.proyecto img{
+    height: 212px;
+}
+.proyecto .btn-rojo{
+    width: 140px !important;
+
+}
+.whatsapp{
+    position: fixed;
+    right: 300px;
+    bottom: 0px;
+    background-color: #370a6d;
+    font-size: 32px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.whatsapp a{
+    color: white;
+}
+.cohete{
+    height: 410px;
+}
+#Inicio img{
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+#Inicio img:hover{
+    height: 410px;
+    cursor: pointer;
+
+}
+#Inicio p{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+.my-5{
+    left: 100px; 
+    top: 220px;
+    width: 12% !important;
+    margin-right: 500px;
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+    height: 35px;
+   
+}
+#bio img{
+    border-radius: 50% !important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+#stack{
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, 
+    rgba(215, 11, 11, 1) 100%);
+}
+#stack .tecnologia {
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+#stack .tecnologia i {
+    font-size: 60px;
+    color: #6A6A6A;
+}
+#stack h2{
+    color: white;
+    font-size: 24px;
+}
+#stack h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+#experiencia h2{
+    font-weight: 400;
+    font-size: 24px;
+    color: #370A6D;
+}
+#experiencia h3{
+    color: #6A6A6A !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    
+}
+#experiencia h4{
+    font-size: 17px;
+    color: #370A6D;
+}
+#experiencia h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#experiencia p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+#formacion h2{
+    color: red !important;
+    font-weight: 400;
+    font-size: 24px;
+}
+#formacion h3{
+        color: #6A6A6A;
+        font-size: 18px;
+        font-weight: 600;
+    }
+#formacion h4{
+color: #E20000;
+font-size: 17px;
+}
+#formacion h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#idiomas .card-idioma{
+    border-radius: 15px;
+}
+#idiomas .card{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
